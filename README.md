@@ -32,12 +32,9 @@ Open $HOME/.profile with VIM or nano and add the following line:
 
 Every time a new Terminal is open it will display a "randomly" selected quote:
 
-    Well, Mr. Frankel, who started this program, began to suffer from the computer disease that anybody who works with computers now knows 
-    about. It’s a very serious disease and it interferes completely with the work. The trouble with computers is you *play* with them. 
-    They are so wonderful. You have these switches - if it’s an even number you do this, if it’s an odd number you do that - and pretty 
-    soon you can do more and more elaborate things if you are clever enough, on one machine.
-    Richard P. Feynman,
-    95/195 -- computers
+> Well, Mr. Frankel, who started this program, began to suffer from the computer disease that anybody who works with computers now knows about. It’s a very serious disease and it interferes completely with the work. The trouble with computers is you *play* with them. They are so wonderful. You have these switches - if it’s an even number you do this, if it’s an odd number you do that - and pretty soon you can do more and more elaborate things if you are clever enough, on one machine.
+> Richard P. Feynman,
+> 95/195 -- computers
 ---
 *Written in*: Python3, Ruby, and Shell
 *Environment*: MacOS15.5/MacBookPro
