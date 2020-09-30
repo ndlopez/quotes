@@ -36,6 +36,7 @@ Every time a new Terminal is open it will display a "randomly" selected quote:
 > Richard P. Feynman<br>
 > 95/195 -- computers
 ---
-*Written in*: Python3, Ruby, and Shell
-*Environment*: MacOS15.5/MacBookPro
+
+*Written in*: Python3, Ruby, and Shell<br>
+*Environment*: MacOS15.5/MacBookPro<br>
 *Editors*: VIM and Python3.8's IDLE
