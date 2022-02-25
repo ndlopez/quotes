@@ -1,10 +1,11 @@
 # CLI app to Scrape quotes from goodreads.com
 
-Using `Scrapy`'s module on python3, scrape quotes from famous authors and display them on the CLI.
+Using `Scrapy`'s module on python3, scrape quotes from famous authors and display them on the CLI.<br>
+This project could have probably be done by using Shell and Python alone. But I wanted to learn about Scrapy, sometimes it's helpful.
 
 ! I know there is a CLI available for Unix/Linux users (called [`fortune`](https://en.wikipedia.org/wiki/Fortune_(Unix))), however on MacOS no such thing* (I don't use homebrew or any package manager). Therefore I created my own.
 
-On ~Goodreads.com~ there a lots of quotes arranged in pages and can be filtered by author. The HTML page has the class **quoteText** for the quot and a span tag **authorOrTitle** for the author.
+On *Goodreads.com* there are lots of quotes arranged in pages and can be filtered by author. The HTML page has the class **quoteText** for the quot and a span tag **authorOrTitle** for the author.
 
 Scrapy requires a URI to make a request an scrap data, this is defined at the beginning of the code,<br>
     
@@ -39,9 +40,9 @@ To display(read) one randomly selected quote from the cleaned JSON file, Ruby is
 
 The file format is:
 
-<quote>,<author>,<topic>
+    <quote>,<author>,<topic>
 
-To which, I also added some quotes from the following book:<br>
+I also added some quotes from the following book:<br>
 "Astroparticle Physics" by Claus Grupen<br>
 and some dialogues/quotes from The Simpsons (No copyright infringement intended)
 
