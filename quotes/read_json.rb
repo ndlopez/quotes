@@ -5,7 +5,7 @@ require 'rubygems'
 require 'json'
 
 #get json string
-str = File.read "data/goodreads_quotes.json"
+str = File.read "/Users/diego/Projects/quotes/quotes/data/goodreads_quotes.json"
 obj = JSON.parse(str)
 
 #rand Output
